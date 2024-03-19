@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+}
+
+#topbar{
+    display: flex;
+    height: 10vh;
+    width: 80vh;
+    border-bottom: 2px solid white;
+}
+
+#title{
+    font-size: 3rem;
+    margin-top: 20px 0px 0px 0px;
+    font-size: 2rem;
+    width: 80%;
+}
+#scorebord p {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+#scorebord span{
+    margin: 3px 0px 0px 18px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#playarea{
+    height: 80vh;
+    width: 80vh;
+    background-color: #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    padding:14px;
+    border-radius: 1rem;
+    margin: 17px 0px;
+}
+
+.tile{
+    font-size: 3.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22.5%;
+    width: 22.5%;
+    background-color: #aaa;
+    border-radius: 0.5rem;
+
+}
+
+/* different color for different number  */
+.x2 {
+    background-color: #ddecf4;
+    color: #111;
+}
+.x4 {
+    background-color: #bad9e8;
+    color: #111;
+}
+.x8 {
+    background-color: #98c6dd;
+    color: #111;
+}
+.x16 {
+    background-color: #75b3d1;
+    color: #111;
+
+}
+.x32 {
+    background-color: #539fc6;
+    color: #111;
+
+}
+.x64 {
+    background-color: #3b89b0;
+    color: white;
+}
+.x128 {
+    background-color: #2f6e8e;
+    color: white;
+}
+.x256 {
+    background-color: #205476;
+    color: white;
+}
+.x512 {
+    background-color: #17405e;
+    color: white;
+}
+.x1024 {
+    background-color: #0d283d;
+    color: white;
+}
+.x2048 {
+    background-color: #06141f;
+    color: white;
+}
+
+#result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    height: 400px;
+}
+
+#result p{
+    font-weight: bolder;
+    font-size: 4rem;
+    color: aqua;
+}
+#newgame-btn{
+    height: 40px;
+    margin-top: 1rem;
+    width: 100px;
+    border-radius: 5px;
+    background-color: crimson;
+    font-size: 1rem;
+}
+
